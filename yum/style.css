@@ -53,4 +53,26 @@ table {
 
 /* END RESET */
 
-
+<style>
+	h1 {color:black;
+		font-family:Adobe Garamond Pro;
+		font-size:30px;
+		padding:10px;
+		
+	 }
+	 h3 {color:black;
+	 	font-family:Univers;
+	 	font-weight:bold;
+	 	font-size:20px;
+	 	padding:10px;
+	 	
+	 }
+	#article-1 { color: black;
+		font-family:Adobe Garamond Pro;
+		font-size:15px;
+		font-spacing:15px;
+		padding:20px;
+		margin-right:5px;
+		
+	 }
+</style>
