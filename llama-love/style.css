@@ -52,4 +52,33 @@ table {
 
 /* -----------------END RESET---------------- */
 
+article  {
+float:left;
+width:40%;	
+}
 
+img {
+	float:left;
+	margin:10px;
+}
+
+h1 {
+	font-family:helvetica;
+	font-size:25px;
+	font-style:bold;
+	margin:10px;
+	
+}
+
+h2 {
+	font-family:helvetica;
+	color:gray;
+	font-size:15px;
+	margin:10px;
+}
+
+p {
+	font-family:helvetica;
+	font-size:10px;
+	margin:10px;	
+}
