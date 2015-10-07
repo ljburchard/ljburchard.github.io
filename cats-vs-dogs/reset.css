@@ -68,9 +68,15 @@ nav li{
 	margin-top:40px;
 }
 
-#topmenu {
+#menu {
   margin:0 auto;
   width:960px;
+}
+
+#menu a{
+display:block;
+text-align:center;
+width:150px; /* fixed width */
 }
 
 #bullet{list-style-type:none;
