@@ -67,3 +67,8 @@ nav li{
 	border-bottom:5px solid black;
 	margin-top:40px;
 }
+
+menu {
+  margin:0 auto;
+  width:960px;
+}
