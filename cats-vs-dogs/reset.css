@@ -59,6 +59,7 @@ nav li{
 	font-family:Georgia;
 	font-weight:bold;
 	text-transform:uppercase;
+	text-decoration:none;
 	float:left;
 	list-style-type:disc;
 	padding:15px;
