@@ -76,7 +76,7 @@ nav li{
 #menu a{
 display:block;
 text-align:center;
-width:900px; /* fixed width */
+width:100px; /* fixed width */
 }
 
 #bullet{list-style-type:none;
