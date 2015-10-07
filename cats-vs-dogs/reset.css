@@ -73,16 +73,13 @@ nav li{
   width:960px;
 }
 
-#menu a{
-display:block;
-text-align:center;
-width:100px; /* fixed width */
-}
-
 #bullet{list-style-type:none;
 }
 
-#content {clear: both;}
+#content {clear: both;
+	margin:0 auto;
+	width:960px;
+}
 
 article {padding: 30px;}
 
@@ -93,4 +90,9 @@ article {padding: 30px;}
 #dogs {
 	width:40%;
 	float:left;
+}
+
+h2 {font-size:30px;
+	font-family:Georgia;
+	font-weight:bold;
 }
