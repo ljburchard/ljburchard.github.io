@@ -72,3 +72,19 @@ menu {
   margin:0 auto;
   width:960px;
 }
+
+#bullet{list-style-type:none;
+}
+
+#content {clear: both;}
+
+article {padding: 30px;}
+
+#cats {
+	width:40%;
+	float:left;
+}
+#dogs {
+	width:40%;
+	float:left;
+}
