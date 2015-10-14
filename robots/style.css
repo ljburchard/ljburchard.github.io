@@ -52,3 +52,143 @@ table {
 
 /* -----------------END RESET---------------- */
 
+	
+#site-wrapper {
+	background-color: #ebf2d8;
+	font-family:Helvetica;
+	color:#774721;
+	height:100px;
+	text-decoration:none;}
+
+#menu-wrapper {
+	width:100%;
+	background-color:#73481d;
+	height:40px;
+	position:relative;}
+	
+#main-menu li {
+	font-family:Helvetica;
+	font-size:15px;
+	font-weight:bold;
+	text-transform:uppercase;
+	float:left;
+	padding-top:10px;
+	padding-left:20px;
+	margin-right:20px;
+	}
+	
+a {
+	text-decoration:none;
+	list-style:none;
+	color:#73481d;}
+
+#main-menu li a {color:white;}
+
+	
+#top-nav {
+	float:right;
+	color:#73481d;
+	font-size:10px;
+	padding:20px;}
+
+	
+#site-header img {
+	width:200px;
+	float:left;;
+	padding-top:5px;
+	padding-left:10%;}
+	
+#content-wrapper {
+	position:relative;
+	top:100px;
+	margin-left:50px;
+	margin-right:20px;}
+	
+#page {
+	float:left;	
+	width:50%;
+	padding-right:10%;
+	padding-left:5%;}
+	
+#page h1 {
+	clear:both;
+	color:#73481d;
+	font-size:30px;
+	font-family:Helvetica;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding-bottom:10px;}
+	
+#page h2 {
+	color:#73481d;
+	font-size:20px;
+	font-family:Helvetica;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding-bottom:10px;}
+	
+p {
+	padding-bottom:10px;
+	font-family:Helvetica;
+	font-size:12px;
+	line-height:20px;}
+	
+#sidebar {
+	float:left;
+	width:30%;
+	margin-right:5%;}	
+
+
+#sidebar h1 {
+	color:#73481d;
+	font-family:Helvetica;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:20px;
+	padding-bottom:5px;}
+
+#sidebar li{
+	color:#73481d;
+	font-family:Helvetica;
+	font-size:12px;
+	line-height:20px;}
+	
+#sidebar ul {padding-bottom:10px;}
+
+#site-footer {
+	position:relative;
+	top:600px;
+	left:0px;
+	background-color:#73481d;
+	height:150px;}
+	
+#footer-wrapper h1 {
+	color:#cdc2ac;
+	font-family:Helvetica;
+	text-transform:uppercase;
+	font-weight:bold;}
+	
+#footer-contact {
+	position:absolute;
+	bottom:10px;
+	left:10%;
+	display:block;
+	width:150px;}
+	
+#footer-contact p {
+		color:white;	
+		font-size:10px;
+		font-family:helvetica;
+		line-height:20px;}
+		
+#footer-follow {
+		position:absolute;
+		bottom:40px;
+		right:20%;}
+		
+#footer-follow li {float:left;}
+
+#footer-follow h1 {padding-bottom:5px;}
+	
+
+		
