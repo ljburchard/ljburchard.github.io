@@ -57,16 +57,12 @@ h1 {color:black;
 		font-family:Garamond;
 		font-size:30px;
 		font-weight:bold;
-		padding:10px;
-	 }
+		padding:20px;}
 	 
 h3 {color:black;
 	 	font-family:Univers;
 	 	font-weight:bold;
-	 	font-size:20px;
-	 	padding:10px;
-		
-	 }
+	 	font-size:20px;}
 	 
 #ingredients {color: black;
 		float:left;
@@ -74,9 +70,8 @@ h3 {color:black;
 		font-size:15px;
 		line-height:20px;
 		float:left;
-		width:40%;
-		padding-left:10px;
-		padding-top:10px;
+		width:20%;
+		padding:20px;
 	 }
  	
 #prep {color: black;
@@ -85,7 +80,18 @@ h3 {color:black;
  		font-size:15px;
 		line-height:20px;
 		float:left;
-		width:40%;
-		padding:10px;	
+		width:60%;
+		padding:20px;	
  	 }
+	 
+a{clear:both;
+	color:black;
+	font-family:Univers;
+	font-size:12px;
+	padding:8px;
+	border:1px solid black;
+	text-transform:uppercase;
+	text-decoration:none;
+	float:left;
+	margin:20px;}
 
