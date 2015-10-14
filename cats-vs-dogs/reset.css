@@ -58,7 +58,7 @@ header{
 nav li{
 	font-size:20pt;
 	font-family:Georgia;
-	font-style:bold;
+	font-weight:bold;
 	text-transform:uppercase;
 	float:left;
 	list-style-type:disc;
