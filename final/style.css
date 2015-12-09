@@ -1,0 +1,481 @@
+
+
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* -----------------END RESET---------------- */
+
+/* Fonts */
+
+
+@font-face {
+    	font-family: 'forumregular';
+    	src: url('fonts/forum-regular-webfont.eot');
+    	src: url('fonts/forum-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         	url('fonts/forum-regular-webfont.woff2') format('woff2'),
+         	url('fonts/forum-regular-webfont.woff') format('woff'),
+         	url('fonts/forum-regular-webfont.ttf') format('truetype'),
+         	url('fonts/forum-regular-webfont.svg#forumregular') format('svg');
+    	font-weight: normal;
+    	font-style: normal;}
+	
+@font-face {
+	    font-family: 'montserratlight';
+	    src: url('fonts/montserrat-light-webfont.eot');
+	    src: url('fonts/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('fonts/montserrat-light-webfont.woff2') format('woff2'),
+	         url('fonts/montserrat-light-webfont.woff') format('woff'),
+	         url('fonts/montserrat-light-webfont.ttf') format('truetype'),
+	         url('fonts/montserrat-light-webfont.svg#montserratlight') format('svg');
+	    font-weight: normal;
+	    font-style: normal;}
+
+@font-face {
+	    font-family: 'montserratregular';
+	    src: url('fonts/montserrat-regular-webfont.eot');
+	    src: url('fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('fonts/montserrat-regular-webfont.woff2') format('woff2'),
+	         url('fonts/montserrat-regular-webfont.woff') format('woff'),
+	         url('fonts/montserrat-regular-webfont.ttf') format('truetype'),
+	         url('fonts/montserrat-regular-webfont.svg#montserratregular') format('svg');
+	    font-weight: normal;
+	    font-style: normal;}
+		
+@font-face {
+		 font-family: 'pt_serifregular';
+		 src: url('fonts/ptf55f-webfont.eot');
+		 src: url('fonts/ptf55f-webfont.eot?#iefix') format('embedded-opentype'),
+		      url('fonts/ptf55f-webfont.woff2') format('woff2'),
+		      url('fonts/ptf55f-webfont.woff') format('woff'),
+		      url('fonts/ptf55f-webfont.ttf') format('truetype'),
+		      url('fonts/ptf55f-webfont.svg#pt_serifregular') format('svg');
+		    font-weight: normal;
+		    font-style: normal;}
+
+@font-face {
+		    font-family: 'pt_serifitalic';
+		    src: url('fonts/ptf56f-webfont.eot');
+		    src: url('fonts/ptf56f-webfont.eot?#iefix') format('embedded-opentype'),
+		         url('fonts/ptf56f-webfont.woff2') format('woff2'),
+		         url('fonts/ptf56f-webfont.woff') format('woff'),
+		         url('fonts/ptf56f-webfont.ttf') format('truetype'),
+		         url('fonts/ptf56f-webfont.svg#pt_serifitalic') format('svg');
+		    font-weight: normal;
+		    font-style: normal;}
+			
+/* End Fonts */
+
+/* Homepage */
+
+header {background: url(panorama.jpg) center center no-repeat;
+	    height:200px;}
+
+
+#logo a{text-decoration:none;
+	display:block;
+	 text-align:center;
+	 font-family: 'forumregular', serif;
+ 	 font-size:6em;
+ 	 text-transform:uppercase;
+	 color:white;
+ 	 padding:5%;}
+
+nav li a{text-decoration:none;
+		 color:#404040;}
+
+nav li {font-size:1em;
+		display:inline-block;
+	 	font-family:'montserratlight';
+	 	text-transform:uppercase;
+		margin-left:2em;
+		margin-right:2em;}
+
+nav {width:60%;
+	 margin: 0 auto;
+	 text-align:center;
+	 height:2em;
+	 padding-top:1em;
+	 border-bottom:1px solid gray;}
+
+#video {width:100%;
+		margin: 0 auto;
+		clear:both;}
+
+#bigvid{float:left;
+	    width:40%;
+   	    padding:5%;}
+
+#bigvid img{width:100%;}
+
+#bigvid h3{font-family:'montserratregular',serif;
+		  font-size:1.5em;
+	  	  font-weight:regular;
+	  	  text-transform:uppercase;
+		  padding-top:2%;
+	  	  color:#404040;}
+		  
+#bigvid p{font-family:'pt_serifregular',serif;
+		  font-size:1em;
+		  font-weight:regular;
+		  padding-top:2%;
+		  color:#404040;}
+
+
+#smallvid{float:left;
+		  width:15%;
+		  padding:5%;}
+		  
+#smallvid1 img{width:120%;
+			  padding-bottom:6%;}
+			  
+#smallvid2 img{width:120%;
+			   padding-top:6%;}
+			   
+#smallvid h3{font-family:'montserratregular',serif;
+		   font-size:.75em;
+		   font-weight:regular;
+		   text-transform:uppercase;
+		   padding-top:2%;
+		   color:#404040;}
+
+#blog{width:100%;
+	  clear:both;}			 			 
+
+#blog article{width:20%;
+	          padding:5%;
+			  float:left;}
+
+#blog img{width:100%;
+		  padding-bottom:1em;}
+		  
+#blogtitle {font-family:'montserratregular',sans-serif;
+		  font-size:2em;
+	  	  font-weight:regular;
+	  	  text-transform:uppercase;
+	  	  color:#404040;
+	  	  text-align:center;}  
+		  
+			 
+#blog h3 {font-family:'montserratregular',sans-serif;
+		  font-size:1.5em;
+	  	  font-weight:regular;
+	  	  text-transform:uppercase;
+	  	  color:#404040;}
+		  
+#blog h5 {font-family:'pt_serifitalic', serif;
+		  font-style:italic;
+		  font-size:1em;
+	      color:#404040;}
+
+#blog h6 {font-family:'montserratlight', sans-serif;
+		  font-weight:light;
+		  font-size:1em;
+	      color:#404040;}
+
+#blog p  {font-family:'pt_serifregular',serif;
+		  font-size:.75em;
+		  line-height:1.25em;
+	      color:#404040;}
+		  
+#issues {width:100%;
+		clear:both;
+		margin:0 auto;}
+		 
+#issues img {width:100%;
+		 	 float:left;
+		 	 align:center;}
+			 
+#issues article{width:20%;
+		 		padding:5%;
+		 		float:left;}
+				
+#issues h3{font-family:'montserratlight', sans-serif;
+		  font-weight:light;
+		  text-transform:uppercase;
+		  text-align:center;
+		  font-size:1em;
+	      color:#404040;
+	  	  padding:5%;}
+		  
+#button {font-family:'montserratlight', sans-serif;
+		  display:inline-block;
+		  text-decoration:none;
+		  text-transform:uppercase;
+		  text-align:center;
+		  font-size:1em;
+	      color:#404040;
+	  	  padding:1em;
+	  	  border:1px solid #404040;}
+		  
+#social img {float:right;
+		 margin:10px;}
+		 
+#social {padding-right:10%;
+		 padding-bottom:5%;}
+		 
+#terms {float:left;
+		padding-left:10%;
+		 padding-bottom:5%;}
+		 
+#terms li{font-family:'montserratlight', sans-serif;
+		  text-transform:uppercase;}
+		  
+/* Blog */
+		  
+#delvetitle {font-family:'montserratregular',sans-serif;
+		  font-size:2em;
+	  	  font-weight:regular;
+	  	  text-transform:uppercase;
+	  	  color:#404040;
+	  	  padding-left:5%;
+	  	  padding-top:5%;}
+		  
+#blogposts article{width:20%;
+	          	   padding:5%;
+			  	   float:left;}
+				   
+#blogposts img{width:100%;
+			   padding-bottom:1em;}
+			   
+#blogposts h3 {font-family:'montserratregular', sans-serif;
+			   		  font-size:1.25em;
+			   	  	  font-weight:regular;
+			   	  	  text-transform:uppercase;
+			   	  	  color:#404040;}
+		  
+#blogposts h5 {font-family:'pt_serifitalic',serif;
+			   		  font-style:italic;
+			   		  font-size:1em;
+			   	      color:#404040;}
+
+#blogposts h6 {font-family:'montserratlight', sans-serif;
+			   		  font-weight:light;
+			   		  font-size:1em;
+			   	      color:#404040;}
+
+#blogposts p  {font-family:'pt_serifregular',serif;
+			   		  font-size:.75em;
+					  line-height:1.25em;
+			   	      color:#404040;}
+		  
+/* Current Issue */
+
+					  
+#overview img{float:left;
+			  width:20%;
+			  padding:5%;}	
+
+#overview article{float:left;
+				  width:40%;
+				  padding:5%;}
+				  
+#overview h1{font-family:'montserratregular',sans-serif;
+		  font-size:2em;
+	  	  font-weight:regular;
+	  	  text-transform:uppercase;
+	  	  color:#404040;
+	  	  padding-left:5%;
+	  	  padding-top:5%;}
+		  
+#overview h2{font-family:'pt_serifregular',serif;
+		  	font-size:1em;
+		  	font-weight:regular;
+			color:#404040;
+		  	padding-left:5%;
+		  	padding-top:1%;}
+			
+#overview h3{font-family:'montserratregular',sans-serif;
+					  font-size:1em;
+				  	  font-weight:regular;
+				  	  text-transform:uppercase;
+				  	  color:#404040;
+				  	  padding-bottom:2%;}
+			
+#overview p{font-family:'pt_serifregular',serif;
+					  	font-size:1em;
+						line-height:1.25em;
+					  	font-weight:regular;
+						color:#404040;}
+				  
+#magarticles{clear:both;}
+
+#magarticles article {width:20%;
+	          	   padding:5%;
+			  	   float:left;}	
+				   
+#magarticles img{width:100%;
+				 padding-bottom:1em;}
+				 
+#magarticles h4{font-family:'montserratregular',sans-serif;
+		  font-size:1.25em;
+	  	  font-weight:regular;
+	  	  text-transform:uppercase;
+	  	  color:#404040;}	
+
+
+#magarticles h5{font-family:'pt_serifitalic', serif;
+		  font-style:italic;
+		  font-size:1em;
+	      color:#404040;}				 
+				   
+#featuredtitle {font-family:'montserratregular',sans-serif;
+		  font-size:2em;
+	  	  font-weight:regular;
+	  	  text-transform:uppercase;
+	  	  color:#404040;
+	  	  text-align:center;}  
+		  
+/* Subscription Page */
+		  
+#subscribetitle {font-family:'montserratregular',sans-serif;
+		  		  font-size:2em;
+		  	  	  font-weight:regular;
+		  	  	  text-transform:uppercase;
+		  	  	  color:#404040;
+		  	  	  padding-left:5%;
+		  	  	  padding-top:5%;}
+				  
+#magimage {float:left;
+		   width:20%;
+		   padding:5%;}
+		   
+#text {float:left;
+	   width:40%;
+	   padding:5%;}
+
+#subinfo{padding-bottom:5%;}
+
+#subinfo p {font-family:'pt_serifregular',serif;
+		  font-size:1em;
+		  line-height:1.25em;
+	      color:#404040;}
+		  
+#bigimage img{width:100%;
+			  padding-bottom:5%;}
+
+#littleimage img{width:45%;}
+
+#little1{padding-right:5%;}	
+
+#form2 {padding-bottom:20%;}
+
+#form2 h3{font-family:'montserratregular', sans-serif;
+				   		  font-size:1em;
+				   	  	  font-weight:regular;
+				   	  	  text-transform:uppercase;
+				   	  	  color:#404040;
+					  	  padding-bottom:2%;}	
+						  
+#billlabel {padding-top:2em;}
+						  
+#radio{padding-bottom:5%;
+	   font-family:'montserratlight', sans-serif;
+	   font-weight:light;
+	   font-size:1em;
+	   line-height:3em;
+	   color:#404040;
+	   text-transform:uppercase;}
+	   
+						  
+#mail label {display:block;
+		padding-top:1%;
+		font-family:'montserratlight', sans-serif;
+		font-weight:light;
+		font-size:.75em;
+		line-height:2em;
+		color:#404040;
+		text-transform:uppercase;}
+				
+		
+#mail input, textarea { display:block;
+						width:50%;
+						border-radius:15px;
+						border: 1px solid #DCDCDC;
+						height:1.5em;}
+						
+#billing label {display:block;
+				padding-top:1%;
+				font-family:'montserratlight', sans-serif;
+				font-weight:light;
+				font-size:.75em;
+				line-height:2em;
+				color:#404040;
+				text-transform:uppercase;}
+				
+				
+#billing input, textarea { display:block;
+						   width:50%;
+						   border-radius:15px;
+						   border: 1px solid #DCDCDC;
+						   height:1.5em;}
+						   
+#button2 {font-family:'montserratlight', sans-serif;
+						   		  display:inline-block;
+						   		  text-decoration:none;
+						   		  text-transform:uppercase;
+						   		  text-align:center;
+						   		  font-size:1em;
+						   	      color:#404040;
+						   	  	  border:1px solid #404040;
+							  	  margin-top:2em;
+							  	  padding:1em;}
+						   
+						   
+						   
+						   
+						   
+
+$("input[type=checkbox], input[type=radio]").checkbox();
+
+  
+
+		  
+footer{clear:both;}
+		
