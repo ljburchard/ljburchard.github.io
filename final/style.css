@@ -146,7 +146,8 @@ nav {width:60%;
 
 #video {width:100%;
 		margin: 0 auto;
-		clear:both;}
+		clear:both;
+		padding-left:10%;}
 
 #bigvid{float:left;
 	    width:40%;
@@ -189,7 +190,9 @@ nav {width:60%;
 	  clear:both;}			 			 
 
 #blog article{width:20%;
-	          padding:5%;
+	          padding-left:10%;
+			  padding-top:5%;
+			  padding-bottom:5%;
 			  float:left;}
 
 #blog img{width:100%;
@@ -226,7 +229,8 @@ nav {width:60%;
 		  
 #issues {width:100%;
 		clear:both;
-		margin:0 auto;}
+		margin:0 auto;
+		padding-left:5%;}
 		 
 #issues img {width:100%;
 		 	 float:left;
@@ -244,6 +248,7 @@ nav {width:60%;
 	      color:#404040;
 	  	  padding:5%;}
 		  
+		  
 #button {font-family:'montserratlight', sans-serif;
 		  display:inline-block;
 		  text-decoration:none;
@@ -253,6 +258,14 @@ nav {width:60%;
 	      color:#404040;
 	  	  padding:1em;
 	  	  border:1px solid #404040;}
+		  
+#subscribebutton{clear:both;
+		  		 float:left;
+			 	padding-left:45%;
+				}
+		  
+footer{clear:both;
+	   padding-top:10%;}
 		  
 #social img {float:right;
 		 margin:10px;}
@@ -274,11 +287,13 @@ nav {width:60%;
 	  	  font-weight:regular;
 	  	  text-transform:uppercase;
 	  	  color:#404040;
-	  	  padding-left:5%;
+	  	  padding-left:10%;
 	  	  padding-top:5%;}
 		  
 #blogposts article{width:20%;
-	          	   padding:5%;
+	          	   padding-left:10%;
+				   padding-top:5%;
+				   padding-bottom:5%;
 			  	   float:left;}
 				   
 #blogposts img{width:100%;
@@ -310,7 +325,10 @@ nav {width:60%;
 					  
 #overview img{float:left;
 			  width:20%;
-			  padding:5%;}	
+			  padding-top:5%;
+		  	  padding-left:10%;
+			  padding-right:5%;
+		  	  padding-bottom:5%;}	
 
 #overview article{float:left;
 				  width:40%;
@@ -321,14 +339,14 @@ nav {width:60%;
 	  	  font-weight:regular;
 	  	  text-transform:uppercase;
 	  	  color:#404040;
-	  	  padding-left:5%;
+	  	  padding-left:10%;
 	  	  padding-top:5%;}
 		  
 #overview h2{font-family:'pt_serifregular',serif;
 		  	font-size:1em;
 		  	font-weight:regular;
 			color:#404040;
-		  	padding-left:5%;
+		  	padding-left:10%;
 		  	padding-top:1%;}
 			
 #overview h3{font-family:'montserratregular',sans-serif;
@@ -347,7 +365,9 @@ nav {width:60%;
 #magarticles{clear:both;}
 
 #magarticles article {width:20%;
-	          	   padding:5%;
+	          	   padding-left:10%;
+				   padding-top:5%;
+				   padding-bottom:5%;
 			  	   float:left;}	
 				   
 #magarticles img{width:100%;
